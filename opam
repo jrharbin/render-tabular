@@ -1,0 +1,14 @@
+opam-version: "1.2.2"
+name: "rendertable"
+version: "0.1"
+maintainer: "James Harbin <james.harbin@gmail.com>"
+author: "James Harbin <james.harbin@gmail.com>"
+homepage: ""
+bug-reports: ""
+license: ""
+dev-repo: ""
+build: [
+       [make bcl]
+       [make ncl]
+]
+install: [make install]

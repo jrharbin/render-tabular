@@ -1,0 +1,6 @@
+description = "Rendering data nicely in coloured tables"
+requires    = "core ANSITerminal"
+version     = "0.1"
+
+archive(byte)   = "render.cma"
+archive(native) = "render.cmxa"
